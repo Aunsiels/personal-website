@@ -1,0 +1,55 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting…</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script>
+    (function() {
+      var lang = (navigator.language || navigator.userLanguage || 'en').toLowerCase();
+
+      if (lang.startsWith('fr')) {
+        window.location.replace("{{ '/fr/' | relative_url }}");
+      } else {
+        window.location.replace("{{ '/en/' | relative_url }}");
+      }
+    })();
+  </script>
+
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #fafafa;
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      color: #555;
+    }
+    .fallback {
+      text-align: center;
+      padding: 20px;
+    }
+    a {
+      color: #c05a36;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="fallback">
+    <p>Redirecting…</p>
+    <p>
+      If nothing happens, choose your language:<br>
+      <a href="{{ '/en/' | relative_url }}">English</a> ・
+      <a href="{{ '/fr/' | relative_url }}">Français</a>
+    </p>
+  </div>
+</body>
+
+</html>
+
