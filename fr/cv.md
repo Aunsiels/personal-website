@@ -119,7 +119,7 @@ où je peux transformer des méthodes de pointe en produits fiables.
 ## Open source
 
 - **Pyformlang** — Mainteneur principal  
-  Environ 53 étoiles GitHub ; ~81k téléchargements (PyPI / pypistats).  
+  Environ 55 étoiles GitHub ; ~110k téléchargements par mois (PyPI / pypistats).  
   Largement utilisé pour la manipulation de langages formels en Python ; adopté dans des cours et des travaux de recherche.
 
 ---

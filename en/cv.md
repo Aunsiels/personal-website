@@ -114,7 +114,7 @@ Currently open to **Paris-based industry collaborations and roles** where I can 
 ## Open Source
 
 - **Pyformlang** — Lead maintainer  
-  ~53 GitHub stars; ~81k downloads (PyPI / pypistats).  
+  ~55 GitHub stars; ~110k downloads/month (PyPI / pypistats).  
   Widely used for formal language manipulation in Python; adopted in coursework and research.
 
 ---
