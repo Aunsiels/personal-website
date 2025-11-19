@@ -313,3 +313,37 @@ a:hover {
   cursor: pointer;
 }
 
+.post {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.post-meta {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 12px;
+}
+
+.post-tag {
+  font-style: italic;
+}
+
+.post-lang-switch {
+  margin-bottom: 16px;
+}
+
+.post-lang-switch a {
+  font-size: 0.9rem;
+  text-decoration: none;
+  border-bottom: 1px dashed #c05a36;
+}
+
+.post-lang-switch a:hover {
+  border-bottom-style: solid;
+}
+
+.post-content p {
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
